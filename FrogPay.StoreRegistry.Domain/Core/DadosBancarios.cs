@@ -8,7 +8,7 @@ namespace FrogPay.StoreRegistry.Domain.Core
 {
     public class DadosBancarios
     {
-        public Guid Idpessoa { get; set; }
+        public Guid IdPessoa { get; set; }
         public string CodigoBanco { get; set; }
         public string Agencia { get; set; }
         public string Conta { get; set; }

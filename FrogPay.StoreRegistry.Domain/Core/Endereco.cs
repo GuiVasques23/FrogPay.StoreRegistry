@@ -8,12 +8,12 @@ namespace FrogPay.StoreRegistry.Domain.Core
 {
     public class Endereco
     {
-        public Guid Id_pessoa { get; set; }
-        public string Rua { get; set; }
-        public string Numero { get; set; }
+        public Guid IdPessoa { get; set; }
+        public string UfEstado { get; set; }
         public string Cidade { get; set; }
-        public string Estado { get; set; }
-        public int PessoaId { get; set; }
-        public Pessoa Pessoa { get; set; }
+        public string Bairro { get; set; }
+        public string Logradouro { get; set; }
+        public string Numero { get; set; }
+        public string Complemento { get; set; }
     }
 }
