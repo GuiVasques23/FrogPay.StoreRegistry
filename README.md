@@ -47,14 +47,13 @@ dotnet test
 Crie um arquivo chamado Dockerfile no diretório raiz do seu projeto com o seguinte conteúdo:
 
 dockerfile.txt
-
+```
 # Use the official .NET image for the base
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-```
 # Use the official .NET SDK image to build the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
