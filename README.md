@@ -23,7 +23,6 @@ docker run --name postgres-db -e POSTGRES_PASSWORD=teste123 -e POSTGRES_DB=Store
 Atualize sua string de conexão no arquivo appsettings.json:
 
 ``` json
-Copiar código
 {
   "ConnectionStrings": {
     "DefaultConnection": "Host=postgres-db;Port=5432;Database=StoreRegistryDB;Username=postgres;Password=teste123"
@@ -49,14 +48,13 @@ Crie um arquivo chamado Dockerfile no diretório raiz do seu projeto com o segui
 
 dockerfile.txt
 
-Copiar código
-
 # Use the official .NET image for the base
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
+```
 # Use the official .NET SDK image to build the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
@@ -74,12 +72,11 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "FrogPay.StoreRegistry.dll"]
-
+```
 ### 4. Criar o docker-compose.yml
 Crie um arquivo chamado docker-compose.yml no diretório raiz do seu projeto com o seguinte conteúdo:
 
 ``` yaml
-Copiar código
 version: '3.4'
 
 services:
@@ -124,6 +121,5 @@ docker-compose up
 Para parar os contêineres, use o seguinte comando:
 
 ``` bash
-Copiar código
 docker-compose down
 ```
