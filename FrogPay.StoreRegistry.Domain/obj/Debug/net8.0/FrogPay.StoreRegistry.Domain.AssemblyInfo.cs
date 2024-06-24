@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrogPay.StoreRegistry.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01b678ed4d9b4bc9648ae66f9ca60cc098b0b272")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0a5a098c9bfc17687e0b2ad18c24f1730a7150c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrogPay.StoreRegistry.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrogPay.StoreRegistry.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
