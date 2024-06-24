@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FrogPay.StoreRegistry.Domain\FrogPay.StoreRegistry.Domain.csproj" />
+    <ProjectReference Include="..\FrogPay.StoreRegistry.Infra\FrogPay.StoreRegistry.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
