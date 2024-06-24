@@ -12,5 +12,6 @@ namespace FrogPay.StoreRegistry.Services.Interfaces
         Task<Pessoa> GetPessoaByIdAsync(Guid id);
         Task CreatePessoaAsync(Pessoa pessoa);
         Task UpdatePessoaAsync(Pessoa pessoa);
+        Task<Pessoa> GetPessoaByNameAsync(string name);
     }
 }

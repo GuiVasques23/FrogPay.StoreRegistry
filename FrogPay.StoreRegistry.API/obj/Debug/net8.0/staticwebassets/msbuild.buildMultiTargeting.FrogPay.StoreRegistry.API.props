@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FrogPay.StoreRegistry.API.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G3Nu8xeeorNWRX6EveNy4f/tpzaKQVwyJQ76O1HXU4o=",
+  "Source": "FrogPay.StoreRegistry.API",
+  "BasePath": "_content/FrogPay.StoreRegistry.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

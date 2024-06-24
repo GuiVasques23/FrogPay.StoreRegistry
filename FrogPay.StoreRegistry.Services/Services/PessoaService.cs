@@ -1,28 +1,97 @@
 ﻿using FrogPay.StoreRegistry.Domain.Core;
 using FrogPay.StoreRegistry.Services.Interfaces;
+using FrogPay.StoreRegistry.Infra.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using FluentValidation;
 
 namespace FrogPay.StoreRegistry.Services.Services
 {
     public class PessoaService : IPessoaService
     {
-        public Task CreatePessoaAsync(Pessoa pessoa)
+        private readonly IPessoaRepository _pessoaRepository;
+        private readonly IValidator<Pessoa> _validator;
+
+        public PessoaService(IPessoaRepository pessoaRepository, IValidator<Pessoa> validator)
         {
-            throw new NotImplementedException();
+            _pessoaRepository = pessoaRepository;
+            _validator = validator;
         }
 
-        public Task<Pessoa> GetPessoaByIdAsync(Guid id)
+        public async Task CreatePessoaAsync(Pessoa pessoa)
         {
-            throw new NotImplementedException();
+            if (pessoa == null)
+            {
+                throw new ArgumentNullException(nameof(pessoa));
+            }
+
+            var validationResult = await _validator.ValidateAsync(pessoa);
+            if (!validationResult.IsValid)
+            {
+                throw new ValidationException(validationResult.Errors);
+            }
+
+            //Garantir a data de nascimento apenas dia/mes/ano
+            pessoa.DataNascimento = pessoa.DataNascimento.Date;
+
+            try
+            {
+                await _pessoaRepository.AddAsync(pessoa);
+            }
+
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Erro ao criar o registro de pessoa.", ex);
+            }
         }
 
-        public Task UpdatePessoaAsync(Pessoa pessoa)
+        public async Task<Pessoa> GetPessoaByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            if (id == Guid.Empty)
+            {
+                throw new ArgumentException("ID inválido", nameof(id));
+            }
+
+            try
+            {
+                return await _pessoaRepository.GetByIdAsync(id);
+            }
+            catch (Exception ex)
+            {
+                // Pode modificar para apresentar um retorno de erro mais detalhado
+                throw new ApplicationException("Erro ao buscar a pessoa pelo ID.", ex);
+            }
+        }
+
+        public async Task<Pessoa> GetPessoaByNameAsync(string name)
+        {
+            try
+            {
+                return await _pessoaRepository.GetPessoaByNameAsync(name);
+            }
+            catch (Exception ex)
+            {
+                // Pode modificar para apresentar um retorno de erro mais detalhado
+                throw new ApplicationException("Erro ao buscar o nome", ex);
+            }
+        }
+
+        public async Task UpdatePessoaAsync(Pessoa pessoa)
+        {
+            if (pessoa == null)
+            {
+                throw new ArgumentNullException(nameof(pessoa));
+            }
+
+            try
+            {
+                await _pessoaRepository.UpdateAsync(pessoa);
+            }
+            catch (Exception ex)
+            {
+                // Pode modificar para apresentar um retorno de erro mais detalhado
+                throw new ApplicationException("Erro ao atualizar a pessoa.", ex);
+            }
         }
     }
 }

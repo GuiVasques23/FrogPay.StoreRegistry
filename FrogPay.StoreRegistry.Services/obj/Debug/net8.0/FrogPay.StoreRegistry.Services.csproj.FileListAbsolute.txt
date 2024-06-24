@@ -1,0 +1,6 @@
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.csproj.AssemblyReference.cache
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.AssemblyInfoInputs.cache
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.AssemblyInfo.cs
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.sourcelink.json

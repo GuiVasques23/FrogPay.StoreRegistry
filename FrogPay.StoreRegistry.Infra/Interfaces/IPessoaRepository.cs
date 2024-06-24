@@ -9,5 +9,6 @@ namespace FrogPay.StoreRegistry.Infra.Interfaces
 {
     public interface IPessoaRepository : IBaseRepository<Pessoa>
     {
+        Task<Pessoa> GetPessoaByNameAsync(string name);
     }
 }

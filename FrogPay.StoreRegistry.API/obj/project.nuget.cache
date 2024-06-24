@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4MRcBNm7HWY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}

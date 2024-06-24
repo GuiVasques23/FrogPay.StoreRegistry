@@ -1,0 +1,12 @@
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\bin\Debug\net8.0\FrogPay.StoreRegistry.Domain.deps.json
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\bin\Debug\net8.0\FrogPay.StoreRegistry.Domain.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\bin\Debug\net8.0\FrogPay.StoreRegistry.Domain.pdb
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.AssemblyInfoInputs.cache
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.AssemblyInfo.cs
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.sourcelink.json
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\refint\FrogPay.StoreRegistry.Domain.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\FrogPay.StoreRegistry.Domain.pdb
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Domain\obj\Debug\net8.0\ref\FrogPay.StoreRegistry.Domain.dll

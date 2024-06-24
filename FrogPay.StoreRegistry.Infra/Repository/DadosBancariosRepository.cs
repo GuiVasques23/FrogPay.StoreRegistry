@@ -15,7 +15,22 @@ namespace FrogPay.StoreRegistry.Infra.Repositories
 
         public async Task<DadosBancarios> GetDadosBancariosByIdPessoaAsync(Guid idPessoa)
         {
-            return await _context.DadosBancarios.FirstOrDefaultAsync(d => d.IdPessoa == idPessoa);
+            try
+            {
+                var dadosBancarios = await _context.DadosBancarios
+                    .FirstOrDefaultAsync(x => x.IdPessoa == idPessoa);
+
+                if (dadosBancarios == null)
+                {
+                    throw new InvalidOperationException("Dados bancários não encontrados.");
+                }
+
+                return dadosBancarios;
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Erro ao buscar os dados bancários pelo ID da pessoa.", ex);
+            }
         }
     }
 }

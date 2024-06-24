@@ -15,7 +15,22 @@ namespace FrogPay.StoreRegistry.Infra.Repositories
 
         public async Task<Endereco> GetEnderecoByIdPessoaAsync(Guid idPessoa)
         {
-            return await _context.Enderecos.FirstOrDefaultAsync(e => e.IdPessoa == idPessoa);
+            try
+            {
+                var endereco = await _context.Enderecos
+                    .FirstOrDefaultAsync(x => x.IdPessoa == idPessoa);
+
+                if (endereco == null)
+                {
+                    throw new InvalidOperationException("Endereço não encontrado.");
+                }
+
+                return endereco;
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Erro ao buscar o endereço pelo ID da pessoa.", ex);
+            }
         }
     }
 }
