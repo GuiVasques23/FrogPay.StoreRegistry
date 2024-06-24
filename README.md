@@ -1,16 +1,20 @@
-FrogPay Store Registry
+# FrogPay Store Registry
+
 Este projeto é uma API para o registro de lojas no FrogPay. A aplicação foi desenvolvida em .NET Core e utiliza um banco de dados PostgreSQL.
 
-Requisitos
-Docker
-Docker Compose
-.NET SDK 8.0
-Configuração
-1. Configurar o Banco de Dados PostgreSQL
+## Requisitos
+
+- Docker
+- Docker Compose
+- .NET SDK 8.0
+
+## Configuração
+
+### 1. Configurar o Banco de Dados PostgreSQL
+
 Primeiro, você precisa criar um contêiner Docker para o PostgreSQL. Use o seguinte comando:
 
-bash
-Copiar código
+```bash
 docker run --name postgres-db -e POSTGRES_PASSWORD=teste123 -e POSTGRES_DB=StoreRegistryDB -p 5432:5432 -d postgres
 2. Configurar a Aplicação .NET
 Atualize sua string de conexão no arquivo appsettings.json:
@@ -105,6 +109,3 @@ Para parar os contêineres, use o seguinte comando:
 bash
 Copiar código
 docker-compose down
-Observações
-Certifique-se de que o Docker e o Docker Compose estão instalados e funcionando corretamente no seu sistema.
-Caso encontre algum problema, verifique os logs dos contêineres para obter mais informações.
