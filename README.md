@@ -16,10 +16,13 @@ Primeiro, você precisa criar um contêiner Docker para o PostgreSQL. Use o segu
 
 ```bash
 docker run --name postgres-db -e POSTGRES_PASSWORD=teste123 -e POSTGRES_DB=StoreRegistryDB -p 5432:5432 -d postgres
-2. Configurar a Aplicação .NET
+```
+
+#### 2. Configurar a Aplicação .NET
+
 Atualize sua string de conexão no arquivo appsettings.json:
 
-json
+``` json
 Copiar código
 {
   "ConnectionStrings": {
@@ -33,11 +36,21 @@ Copiar código
   },
   "AllowedHosts": "*"
 }
-3. Criar o Dockerfile
+```
+
+Executar os tests unitários:
+``` bash
+dotnet test
+```
+
+
+### 3. Criar o Dockerfile
 Crie um arquivo chamado Dockerfile no diretório raiz do seu projeto com o seguinte conteúdo:
 
-dockerfile
+dockerfile.txt
+
 Copiar código
+
 # Use the official .NET image for the base
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
@@ -61,10 +74,11 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "FrogPay.StoreRegistry.dll"]
-4. Criar o docker-compose.yml
+
+### 4. Criar o docker-compose.yml
 Crie um arquivo chamado docker-compose.yml no diretório raiz do seu projeto com o seguinte conteúdo:
 
-yaml
+``` yaml
 Copiar código
 version: '3.4'
 
@@ -96,16 +110,20 @@ services:
 
 volumes:
   postgres-data:
-5. Construir e Executar os Contêineres
+```
+
+### 5. Construir e Executar os Contêineres
 Para construir a imagem da sua aplicação e iniciar os contêineres, use os seguintes comandos:
 
-bash
-Copiar código
+``` bash
 docker-compose build
 docker-compose up
-6. Parar os Contêineres
+```
+
+### 6. Parar os Contêineres
 Para parar os contêineres, use o seguinte comando:
 
-bash
+``` bash
 Copiar código
 docker-compose down
+```
