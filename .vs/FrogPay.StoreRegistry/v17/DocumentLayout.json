@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\controller\\authenticatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\controller\\authenticatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24E46E9-B6B1-468F-8440-4445E0F264F8}|FrogPay.StoreRegistry.Domain\\FrogPay.StoreRegistry.Domain.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.domain\\core\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F24E46E9-B6B1-468F-8440-4445E0F264F8}|FrogPay.StoreRegistry.Domain\\FrogPay.StoreRegistry.Domain.csproj|solutionrelative:frogpay.storeregistry.domain\\core\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\controller\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\controller\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\controller\\lojacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\controller\\lojacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\controller\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\controller\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\controller\\dadosbancarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\controller\\dadosbancarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|c:\\users\\guilherme\\source\\repos\\frogpay.storeregistry\\frogpay.storeregistry.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B0CA2CA-210D-4A01-8F68-3A3776DD0273}|FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj|solutionrelative:frogpay.storeregistry.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Dockerfile",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Dockerfile",
+              "RelativeToolTip": "FrogPay.StoreRegistry.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-24T20:55:10.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.Domain\\Core\\Login.cs",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.Domain\\Core\\Login.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.Domain\\Core\\Login.cs",
+              "RelativeToolTip": "FrogPay.StoreRegistry.Domain\\Core\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:51:15.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticatorController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\AuthenticatorController.cs",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Controller\\AuthenticatorController.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\AuthenticatorController.cs",
+              "RelativeToolTip": "FrogPay.StoreRegistry.API\\Controller\\AuthenticatorController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:48:16.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\PessoaController.cs",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Controller\\PessoaController.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\PessoaController.cs",
+              "RelativeToolTip": "FrogPay.StoreRegistry.API\\Controller\\PessoaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:47:16.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LojaController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\LojaController.cs",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Controller\\LojaController.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\LojaController.cs",
+              "RelativeToolTip": "FrogPay.StoreRegistry.API\\Controller\\LojaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:47:12.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Controller\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\EnderecoController.cs",
+              "RelativeToolTip": "FrogPay.StoreRegistry.API\\Controller\\EnderecoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:47:08.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DadosBancariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\DadosBancariosController.cs",
+              "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Controller\\DadosBancariosController.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Controller\\DadosBancariosController.cs",
+              "RelativeToolTip": "FrogPay.StoreRegistry.API\\Controller\\DadosBancariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:47:03.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\appsettings.json",
               "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\appsettings.json",
               "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\appsettings.json",
               "RelativeToolTip": "FrogPay.StoreRegistry.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-24T19:36:55.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Program.cs",
               "RelativeDocumentMoniker": "FrogPay.StoreRegistry.API\\Program.cs",
               "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\Program.cs",
               "RelativeToolTip": "FrogPay.StoreRegistry.API\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAADwv0UAAAAAAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAADwv2UAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T19:31:59.617Z",
               "EditorCaption": ""

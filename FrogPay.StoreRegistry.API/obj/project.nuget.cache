@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vaK0nfcKlwk=",
+  "dgSpecHash": "GYdlGjq2JH8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Guilherme\\source\\repos\\FrogPay.StoreRegistry\\FrogPay.StoreRegistry.API\\FrogPay.StoreRegistry.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.5\\microsoft.aspnetcore.authentication.jwtbearer.8.0.5.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
@@ -21,6 +22,12 @@
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.0-preview1\\microsoft.identitymodel.abstractions.8.0.0-preview1.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.0-preview1\\microsoft.identitymodel.logging.8.0.0-preview1.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.0-preview1\\microsoft.identitymodel.tokens.8.0.0-preview1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
@@ -28,7 +35,8 @@
     "C:\\Users\\Guilherme\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\Guilherme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    "C:\\Users\\Guilherme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
   ],
   "logs": []
 }

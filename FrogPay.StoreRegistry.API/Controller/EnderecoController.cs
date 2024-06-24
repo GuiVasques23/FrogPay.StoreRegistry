@@ -1,5 +1,6 @@
 ﻿using FrogPay.StoreRegistry.Domain.Core;
 using FrogPay.StoreRegistry.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace FrogPay.StoreRegistry.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class EnderecoController : ControllerBase
     {
         private readonly IEnderecoService _enderecoService;

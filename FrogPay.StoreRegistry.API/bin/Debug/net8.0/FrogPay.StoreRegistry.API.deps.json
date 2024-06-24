@@ -10,6 +10,8 @@
         "dependencies": {
           "FrogPay.StoreRegistry.Domain": "1.0.0",
           "FrogPay.StoreRegistry.Services": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.5",
+          "Microsoft.IdentityModel.Tokens": "8.0.0-preview1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1",
           "Swashbuckle.AspNetCore": "6.6.2",
           "Swashbuckle.AspNetCore.Swagger": "6.6.2"
@@ -47,6 +49,17 @@
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.5.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.5": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "8.0.5.0",
+            "fileVersion": "8.0.524.22404"
           }
         }
       },
@@ -130,6 +143,71 @@
         }
       },
       "Microsoft.Extensions.Primitives/8.0.0": {},
+      "Microsoft.IdentityModel.Abstractions/8.0.0-preview1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/7.1.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.0.0-preview1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "7.1.2.0",
+            "fileVersion": "7.1.2.41121"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.0.0-preview1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.0.0-preview1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/7.1.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.0.0-preview1",
+          "Microsoft.IdentityModel.Tokens": "8.0.0-preview1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "7.1.2.0",
+            "fileVersion": "7.1.2.41121"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "7.1.2",
+          "System.IdentityModel.Tokens.Jwt": "7.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "7.1.2.0",
+            "fileVersion": "7.1.2.41121"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.0.0-preview1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.0.0-preview1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
       "Microsoft.OpenApi/1.6.14": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -202,6 +280,18 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/7.1.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
+          "Microsoft.IdentityModel.Tokens": "8.0.0-preview1"
+        },
+        "runtime": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "7.1.2.0",
+            "fileVersion": "7.1.2.41121"
+          }
+        }
+      },
       "FrogPay.StoreRegistry.Domain/1.0.0": {
         "runtime": {
           "FrogPay.StoreRegistry.Domain.dll": {}
@@ -257,6 +347,13 @@
       "sha512": "sha512-iWM0LS1MDYX06pcjMEQKqHirl2zkjHlNV23mEJSoR1IZI7KQmTa0RcTtGEJpj5+iHvBCfrzP2mYKM4FtRKVb+A==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.5.1",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VqKkXLxsCVHNmSdUIuBtDSXL3OqX0yfDjcZxCcYD8VFNpTutl53BCFHzMb3wvw3asneHnURzC2R8VvIXn3l5Lw==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.5.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.5": {
       "type": "package",
@@ -356,6 +453,48 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
+    "Microsoft.IdentityModel.Abstractions/8.0.0-preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gJtfd8NsSNTOPlOEVyNV1DJ7JbHmg+z65O69jEsUm982Pv/bletHTSDn2ZLfMLlqSectwOYetDkbzh991tSqFQ==",
+      "path": "microsoft.identitymodel.abstractions/8.0.0-preview1",
+      "hashPath": "microsoft.identitymodel.abstractions.8.0.0-preview1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cloLGeZolXbCJhJBc5OC05uhrdhdPL6MWHuVUnkkUvPDeK7HkwThBaLZ1XjBQVk9YhxXE2OvHXnKi0PLleXxDg==",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.1.2",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.0.0-preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fe3q1xRRgafy2+0deyRkaprdqie1kOnmohZV3rMHy0zPy1PPm+nC8rp4Rg0QHqqDyCeY8p/AILKfWoh/RgqfXg==",
+      "path": "microsoft.identitymodel.logging/8.0.0-preview1",
+      "hashPath": "microsoft.identitymodel.logging.8.0.0-preview1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SydLwMRFx6EHPWJ+N6+MVaoArN1Htt92b935O3RUWPY1yUF63zEjvd3lBu79eWdZUwedP8TN2I5V9T3nackvIQ==",
+      "path": "microsoft.identitymodel.protocols/7.1.2",
+      "hashPath": "microsoft.identitymodel.protocols.7.1.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6lHQoLXhnMQ42mGrfDkzbIOR3rzKM1W1tgTeMPLgLCqwwGw0d96xFi/UiX/fYsu7d6cD5MJiL3+4HuI8VU+sVQ==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/7.1.2",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.0.0-preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f+ciMdWxJaDP3sSEFSQCfRj2swGosYFhakz0CYyZV5eO5UM8RU13fJutkJn7wu1Rgy1g69jyh2+SNP5CUZI6Ng==",
+      "path": "microsoft.identitymodel.tokens/8.0.0-preview1",
+      "hashPath": "microsoft.identitymodel.tokens.8.0.0-preview1.nupkg.sha512"
+    },
     "Microsoft.OpenApi/1.6.14": {
       "type": "package",
       "serviceable": true,
@@ -411,6 +550,13 @@
       "sha512": "sha512-mBBb+/8Hm2Q3Wygag+hu2jj69tZW5psuv0vMRXY07Wy+Rrj40vRP8ZTbKBhs91r45/HXT4aY4z0iSBYx1h6JvA==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.6.2",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
+      "path": "system.identitymodel.tokens.jwt/7.1.2",
+      "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
     },
     "FrogPay.StoreRegistry.Domain/1.0.0": {
       "type": "project",

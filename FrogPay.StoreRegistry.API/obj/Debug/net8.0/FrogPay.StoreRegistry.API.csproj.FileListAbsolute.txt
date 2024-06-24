@@ -45,3 +45,11 @@ C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\
 C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\obj\Debug\net8.0\FrogPay.StoreRegistry.API.csproj.AssemblyReference.cache
 C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\obj\Debug\net8.0\FrogPay.StoreRegistry.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\obj\Debug\net8.0\FrogPay..1C340207.Up2Date
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
