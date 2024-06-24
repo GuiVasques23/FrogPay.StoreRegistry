@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrogPay.StoreRegistry.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1ec2d0e00ef195d941b185ff48b237120678d20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f1a3cb58c9edd3e31ef4d0f12786c1bd2188c27")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrogPay.StoreRegistry.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrogPay.StoreRegistry.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

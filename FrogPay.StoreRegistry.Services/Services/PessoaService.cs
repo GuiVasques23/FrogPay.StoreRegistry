@@ -24,11 +24,15 @@ namespace FrogPay.StoreRegistry.Services.Services
             {
                 throw new ArgumentNullException(nameof(pessoa));
             }
-
-            var validationResult = await _validator.ValidateAsync(pessoa);
-            if (!validationResult.IsValid)
+            if (pessoa.Id == Guid.Empty)
             {
-                throw new ValidationException(validationResult.Errors);
+                pessoa.Id = Guid.NewGuid();
+            }
+
+            var validation = await _validator.ValidateAsync(pessoa);
+            if (!validation.IsValid)
+            {
+                throw new ValidationException(validation.Errors);
             }
 
             //Garantir a data de nascimento apenas dia/mes/ano

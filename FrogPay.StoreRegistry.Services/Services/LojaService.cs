@@ -21,7 +21,10 @@ namespace FrogPay.StoreRegistry.Services.Services
             {
                 throw new ArgumentNullException(nameof(loja));
             }
-
+            if (loja.Id == Guid.Empty)
+            {
+                loja.Id = Guid.NewGuid();
+            }
             try
             {
                 await _lojaRepository.AddAsync(loja);

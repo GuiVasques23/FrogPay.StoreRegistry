@@ -74,7 +74,7 @@ namespace FrogPay.StoreRegistry.Services.Services
                     throw new InvalidOperationException("Pessoa não encontrada");
                 }
 
-                return await _enderecoRepository.GetEnderecoByIdPessoaAsync(pessoa.Id);
+                return await _enderecoRepository.GetEnderecoByIdPessoaAsync(pessoa.Id.Value);
             }
             catch (Exception ex)
             {

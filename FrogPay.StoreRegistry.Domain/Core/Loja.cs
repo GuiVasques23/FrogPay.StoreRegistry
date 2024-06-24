@@ -8,7 +8,7 @@ namespace FrogPay.StoreRegistry.Domain.Core
 {
     public class Loja
     {
-        public Guid Id { get; set; }
+        public Guid? Id { get; set; }
         public Guid IdPessoa { get; set; }
         public string Nome { get; set; }
         public string RazaoSocial { get; set; }

@@ -4,3 +4,15 @@ C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Serv
 C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.AssemblyInfo.cs
 C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.csproj.CoreCompileInputs.cache
 C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.sourcelink.json
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Services.deps.json
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Services.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Services.pdb
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Domain.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Infra.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Domain.pdb
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\bin\Debug\net8.0\FrogPay.StoreRegistry.Infra.pdb
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay..98BC31E7.Up2Date
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\refint\FrogPay.StoreRegistry.Services.dll
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\FrogPay.StoreRegistry.Services.pdb
+C:\Users\Guilherme\source\repos\FrogPay.StoreRegistry\FrogPay.StoreRegistry.Services\obj\Debug\net8.0\ref\FrogPay.StoreRegistry.Services.dll
